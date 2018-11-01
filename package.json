@@ -1,0 +1,16 @@
+{
+  "name": "IntegrationsForbilleder",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joelving/IntegrationsForbilleder.git"
+  },
+  "author": "Peter Toft Jølving",
+  "license": "GNU General Public License v3.0",
+  "homepage": "https://github.com/joelving/IntegrationsForbilleder",
+  "dependencies": {
+    "bootstrap.native": "^2.0.23"
+  }
+}

@@ -1,0 +1,2 @@
+CALL purifycss ./src/css/bootstrap.css ./*.html --min --info --out ./dist/css/bootstrap-custom.css
+::CALL node ./node_modules/bootstrap.native/build-v4.js --minify --only collapse modal > ./dist/js/bootstrap-custom.js
