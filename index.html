@@ -35,9 +35,11 @@
 			right: 0;
 		}
 		
-		a.profile {
-			text-decoration: none;
-			color: #343a40 !important;
+		.profile {
+			width: 100%;
+			border-top-left-radius: calc(.25rem - 1px);
+			border-top-right-radius: calc(.25rem - 1px);
+			background-color: rgba(0,0,0,.03);
 		}
 		
 		.text-muted {
@@ -71,14 +73,39 @@
 				</h1>
 			</div>
 		</div>
+		
+		<div class="row my-4 align-items-top">
+			<div class="col-12">
+				<h2 class="text-center">Dagens forbillede</h2>
+			</div>
+			
+			<div class="col-12 col-sm-6 offset-sm-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-6">
+							<img class="img-fluid rounded profile" src="images/silhouette.svg" alt="Mød Kamran's mor" />
+						</div>
+						<div class="col-12 col-sm-6">
+							<h3 class="card-title">Kamran's mor</h3>
+							<p class="card-text">Kamran's mor meldte sig ind i Danmark den dag hun skænkede landet to sønner og to døtre som dygtige samfundsborgere.</p>
+							<p><a class="text-muted" href="historie/kamrans-mor.html" title="Mød Kamran's mor">Mød Kamran's mor</a><p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	
 		<div class="row my-4 align-items-top">
+			<div class="col-12">
+				<h2 class="text-center">Flere gode forbilleder</h2>
+			</div>
+			
 			<div class="card-deck">
 				<div class="card">
-					<img class="card-img-top" src="images/silhouette.svg" alt="Mød Kamran's mor">
+					<img class="card-img-top" src="images/silhouette.svg" alt="Mød Kamran's mor" />
 					
 					<div class="card-body">
-						<h5 class="card-title">Kamran's mor</h5>
+						<h3 class="card-title">Kamran's mor</h3>
 						<p class="card-text">Kamran's mor meldte sig ind i Danmark den dag hun skænkede landet to sønner og to døtre som dygtige samfundsborgere.</p>
 					</div>
 					
@@ -88,10 +115,10 @@
 				</div>
 				
 				<div class="card">
-					<img class="card-img-top" src="images/silhouette.svg" alt="Mød Bayar's mor">
+					<img class="card-img-top" src="images/silhouette.svg" alt="Mød Bayar's mor" />
 					
 					<div class="card-body">
-						<h5 class="card-title">Bayar's mor</h5>
+						<h3 class="card-title">Bayar's mor</h3>
 						<p class="card-text">Bayar's mor kom til Danmark for 35 år siden, og arbejder idag som leder. Derudover har hun givet Danmark en højtråbende ildsjæl med hjertet på rette sted af en datter.</p>
 					</div>
 					
@@ -101,15 +128,15 @@
 				</div>
 				
 				<div class="card">
-					<img class="card-img-top" src="images/peter.jpg" alt="Mød Peter">
+					<img class="card-img-top" src="images/peter.jpg" alt="Mød Peter" />
 					
 					<div class="card-body">
-						<h5 class="card-title">Peter</h5>
+						<h3 class="card-title">Peter</h3>
 						<p class="card-text">Peter hører slet ikke til her, men det ser fjollet ud med kun to fortællinger - skriv ind med en historie, så vi kan få ham væk fra listen.</p>
 					</div>
 					
 					<div class="card-footer">
-						<a class="text-muted" href="historie/peter.html" title="Mød Kamran's mor">Mød Peter</a>
+						<a class="text-muted" href="historie/peter.html" title="Mød Peter">Mød Peter</a>
 					</div>
 				</div>
 			</div>
@@ -119,7 +146,9 @@
 	
     <footer class="py-5 bg-light">
 		<div class="container">
-			<p class="m-0 text-center">IntegrationsForbilleder er et frivilligt drevet site. Send dine historier til <a href="mailto:historie@integrationsforbilleder.dk">historie@integrationsforbilleder.dk</a></p>
+			<p class="m-0 text-center">
+				Det var det for nu - men der kommer hele tiden flere til, så kig endelig forbi igen en anden dag.<br />
+				Send dine historier til <a href="mailto:historie@integrationsforbilleder.dk">historie@integrationsforbilleder.dk</a>.</p>
 		</div>
     </footer>
 </body>
